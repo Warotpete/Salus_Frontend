@@ -1,4 +1,3 @@
-import warnings
 import streamlit as st
 import joblib
 
