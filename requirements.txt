@@ -1,3 +1,2 @@
-warnings
 streamlit
 joblib
