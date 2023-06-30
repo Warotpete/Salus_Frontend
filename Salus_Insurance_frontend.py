@@ -57,15 +57,15 @@ def main():
         printf("suggestions\n")
 
         if p3 >= 35:
-            printf("You are fucking obese")
+            print("You are fucking obese")
         elif (p3 < 35) and (p3 >= 30):
-            printf("You are obese")
+            print("You are obese")
         elif (p3 < 30) and (p3 >= 25):
-            printf("You are obese")
+            print("You are obese")
         elif (p3 < 25) and (p3 >= 18.5):
-            printf("You are normal")
+            print("You are normal")
         else:
-            printf("You need to eat more bro")
+            print("You need to eat more bro")
         
         
 if __name__ == '__main__':
