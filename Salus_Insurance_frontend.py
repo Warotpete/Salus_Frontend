@@ -57,6 +57,8 @@ def main():
         st.divider()
         st.header("Suggestions\n")
         provide_feedback(p3,p4)
+        if p6 > 0:
+            st.markdown("Hey! We have a Family Package that will reduce your cost. Interested?")
         st.divider()
 
         
