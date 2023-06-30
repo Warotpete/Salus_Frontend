@@ -72,15 +72,15 @@ def provide_feedback(bmi, smoking_status):
             st.text("Ensure you meet your daily calorie requirements to support healthy weight gain.")
             st.text("Engage in strength-building exercises to build muscle mass and improve your overall strength.")
             st.text("Prioritize quality sleep of 7-9 hours each night to support your body's growth and recovery.")
-            st.text("Consider quitting smoking to improve overall health. (Website: https://www.smokefree.gov)")
-            st.text("For additional information, you can visit: (Website: https://www.nhs.uk/live-well/healthy-weight/advice-for-underweight-adults/)")
+            st.markdown("Consider quitting smoking to improve overall health. (Website: https://www.smokefree.gov)")
+            st.markdown("For additional information, you can visit: (Website: https://www.nhs.uk/live-well/healthy-weight/advice-for-underweight-adults/)")
         else:
             st.text("It's important to focus on nourishing your body with a balanced and varied diet.")
             st.text("Include lean proteins, whole grains, fruits, and vegetables in your meals.")
             st.text("Ensure you meet your daily calorie requirements to support healthy weight gain.")
             st.text("Engage in strength-building exercises to build muscle mass and improve your overall strength.")
             st.text("Prioritize quality sleep of 7-9 hours each night to support your body's growth and recovery.")
-            st.text("For additional information, you can visit: (Website: https://www.nhs.uk/live-well/healthy-weight/advice-for-underweight-adults/)")
+            st.markdown("For additional information, you can visit: (Website: https://www.nhs.uk/live-well/healthy-weight/advice-for-underweight-adults/)")
     elif bmi >= 18.5 and bmi < 25:
         st.text("Your BMI is within the normal range.")
         if smoking_status == 0:
@@ -89,15 +89,15 @@ def provide_feedback(bmi, smoking_status):
             st.text("Engage in regular physical activity that you enjoy, aiming for at least 150 minutes per week.")
             st.text("Include a mix of cardiovascular exercises, strength training, and flexibility exercises in your routine.")
             st.text("Make sure to prioritize a consistent sleep schedule, aiming for 7-9 hours of sleep each night.")
-            st.text("Consider quitting smoking to further improve your overall health and well-being. (Website: https://www.smokefree.gov)")
-            st.text("For additional information, you can visit: (Website: https://www.nhs.uk/live-well/healthy-weight/advice-for-adults-with-a-healthy-weight/)")
+            st.markdown("Consider quitting smoking to further improve your overall health and well-being. (Website: https://www.smokefree.gov)")
+            st.markdown("For additional information, you can visit: (Website: https://www.nhs.uk/live-well/healthy-weight/advice-for-adults-with-a-healthy-weight/)")
         else:
             st.text("It's important to continue maintaining a balanced diet with a variety of nutritious foods.")
             st.text("Focus on portion control and listen to your body's hunger and fullness cues.")
             st.text("Engage in regular physical activity that you enjoy, aiming for at least 150 minutes per week.")
             st.text("Include a mix of cardiovascular exercises, strength training, and flexibility exercises in your routine.")
             st.text("Make sure to prioritize a consistent sleep schedule, aiming for 7-9 hours of sleep each night.")
-            st.text("For additional information, you can visit: (Website: https://www.nhs.uk/live-well/healthy-weight/advice-for-adults-with-a-healthy-weight/)")
+            st.markdown("For additional information, you can visit: (Website: https://www.nhs.uk/live-well/healthy-weight/advice-for-adults-with-a-healthy-weight/)")
     elif bmi >= 25 and bmi < 30:
         st.text("Your BMI indicates that you are overweight.")
         if smoking_status == 0:
@@ -106,15 +106,17 @@ def provide_feedback(bmi, smoking_status):
             st.text("Engage in regular physical activity for at least 150 minutes per week to support weight management.")
             st.text("Incorporate both cardiovascular exercises and strength training into your routine.")
             st.text("Prioritize quality sleep of 7-9 hours each night to support your body's recovery.")
-            st.text("Consider quitting smoking to improve overall health. (Website: https://www.smokefree.gov)")
-            st.text("For additional information, you can visit: (Website: https://www.nhs.uk/live-well/healthy-weight/advice-for-adults-with-an-overweight/)")
+            st.markdown("Consider quitting smoking to improve overall health. (Website: https://www.smokefree.gov)")
+            st.text("For additional information, you can visit:")
+            st.markdown("(Website: https://www.nhs.uk/live-well/healthy-weight/advice-for-adults-with-an-overweight/)")
         else:
             st.text("It's important to adopt a healthy eating plan that focuses on whole, unprocessed foods.")
             st.text("Practice portion control and be mindful of your calorie intake.")
             st.text("Engage in regular physical activity for at least 150 minutes per week to support weight management.")
             st.text("Incorporate both cardiovascular exercises and strength training into your routine.")
             st.text("Prioritize quality sleep of 7-9 hours each night to support your body's recovery.")
-            st.text("For additional information, you can visit: (Website: https://www.nhs.uk/live-well/healthy-weight/advice-for-adults-with-an-overweight/)")
+            st.text("For additional information, you can visit:)
+            st.markdown("(Website: https://www.nhs.uk/live-well/healthy-weight/advice-for-adults-with-an-overweight/)")
     else:
         st.text("Your BMI indicates that you are obese.")
         if smoking_status == 0:
@@ -123,15 +125,17 @@ def provide_feedback(bmi, smoking_status):
             st.text("Engage in regular physical activity for at least 150 minutes per week to support weight management.")
             st.text("Incorporate both cardiovascular exercises and strength training into your routine.")
             st.text("Prioritize quality sleep of 7-9 hours each night to support your body's recovery.")
-            st.text("Consider quitting smoking to improve overall health. (Website: https://www.smokefree.gov)")
-            st.text("For additional information, you can visit: (Website: https://www.nhs.uk/live-well/healthy-weight/advice-for-adults-with-obesity/)")
+            st.markdown("Consider quitting smoking to improve overall health. (Website: https://www.smokefree.gov)")
+            st.text("For additional information, you can visit:)
+            st.markdown("(Website: https://www.nhs.uk/live-well/healthy-weight/advice-for-adults-with-obesity/)")
         else:
             st.text("It's important to adopt a healthy eating plan that focuses on whole, unprocessed foods.")
             st.text("Practice portion control and be mindful of your calorie intake.")
             st.text("Engage in regular physical activity for at least 150 minutes per week to support weight management.")
             st.text("Incorporate both cardiovascular exercises and strength training into your routine.")
             st.text("Prioritize quality sleep of 7-9 hours each night to support your body's recovery.")
-            st.text("For additional information, you can visit: (Website: https://www.nhs.uk/live-well/healthy-weight/advice-for-adults-with-obesity/)")
+            st.markdown("For additional information, you can visit:)
+            st.markdown("(Website: https://www.nhs.uk/live-well/healthy-weight/advice-for-adults-with-obesity/)")
 
         
         
