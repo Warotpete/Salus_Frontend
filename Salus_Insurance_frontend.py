@@ -115,7 +115,7 @@ def provide_feedback(bmi, smoking_status):
             st.text("Engage in regular physical activity for at least 150 minutes per week to support weight management.")
             st.text("Incorporate both cardiovascular exercises and strength training into your routine.")
             st.text("Prioritize quality sleep of 7-9 hours each night to support your body's recovery.")
-            st.text("For additional information, you can visit:)
+            st.text("For additional information, you can visit:")
             st.markdown("(Website: https://www.nhs.uk/live-well/healthy-weight/advice-for-adults-with-an-overweight/)")
     else:
         st.text("Your BMI indicates that you are obese.")
@@ -126,7 +126,7 @@ def provide_feedback(bmi, smoking_status):
             st.text("Incorporate both cardiovascular exercises and strength training into your routine.")
             st.text("Prioritize quality sleep of 7-9 hours each night to support your body's recovery.")
             st.markdown("Consider quitting smoking to improve overall health. (Website: https://www.smokefree.gov)")
-            st.text("For additional information, you can visit:)
+            st.text("For additional information, you can visit:")
             st.markdown("(Website: https://www.nhs.uk/live-well/healthy-weight/advice-for-adults-with-obesity/)")
         else:
             st.text("It's important to adopt a healthy eating plan that focuses on whole, unprocessed foods.")
@@ -134,7 +134,7 @@ def provide_feedback(bmi, smoking_status):
             st.text("Engage in regular physical activity for at least 150 minutes per week to support weight management.")
             st.text("Incorporate both cardiovascular exercises and strength training into your routine.")
             st.text("Prioritize quality sleep of 7-9 hours each night to support your body's recovery.")
-            st.markdown("For additional information, you can visit:)
+            st.markdown("For additional information, you can visit:")
             st.markdown("(Website: https://www.nhs.uk/live-well/healthy-weight/advice-for-adults-with-obesity/)")
 
         
