@@ -58,11 +58,11 @@ def main():
 
         if p3 >= 35:
             printf("You are fucking obese")
-        elif p3 < 35 && p3 >= 30:
+        elif (p3 < 35) and (p3 >= 30):
             printf("You are obese")
-        elif p3 < 30 && p3 >= 25:
+        elif (p3 < 30) and (p3 >= 25):
             printf("You are obese")
-        elif p3 < 25 && p3 >= 18.5:
+        elif (p3 < 25) and (p3 >= 18.5):
             printf("You are normal")
         else:
             printf("You need to eat more bro")
