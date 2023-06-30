@@ -53,6 +53,19 @@ def main():
         pred = model.predict([[p1,p2,p3,p4,p5,p6]])
     
         st.success('Your Insurance Cost is {} THB/year'.format(round(pred[0])))
+
+        printf("suggestions\n")
+
+        if p3 >= 35:
+            printf("You are fucking obese")
+        elif p3 < 35 && p3 >= 30:
+            printf("You are obese")
+        elif p3 < 30 && p3 >= 25:
+            printf("You are obese")
+        elif p3 < 25 && p3 >= 18.5:
+            printf("You are normal")
+        else:
+            printf("You need to eat more bro")
         
         
 if __name__ == '__main__':
