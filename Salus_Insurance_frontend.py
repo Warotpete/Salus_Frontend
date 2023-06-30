@@ -54,7 +54,7 @@ def main():
     
         st.success('Your Insurance Cost is {} THB/year'.format(round(pred[0])))
 
-        printf("suggestions\n")
+        print("suggestions\n")
 
         if p3 >= 35:
             print("You are fucking obese")
