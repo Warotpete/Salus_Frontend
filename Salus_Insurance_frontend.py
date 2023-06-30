@@ -67,13 +67,7 @@ def provide_feedback(bmi, smoking_status):
     if bmi < 18.5:
         st.text("Your BMI indicates that you are underweight.")
         if smoking_status == 0:
-            st.text("It's important to focus on nourishing your body with a balanced and varied diet.")
-            st.text("Include lean proteins, whole grains, fruits, and vegetables in your meals.")
-            st.text("Ensure you meet your daily calorie requirements to support healthy weight gain.")
-            st.text("Engage in strength-building exercises to build muscle mass and improve your overall strength.")
-            st.text("Prioritize quality sleep of 7-9 hours each night to support your body's growth and recovery.")
-            st.markdown("Consider quitting smoking to improve overall health. (Website: https://www.smokefree.gov)")
-            st.markdown("For additional information, you can visit: (Website: https://www.nhs.uk/live-well/healthy-weight/advice-for-underweight-adults/)")
+            st.markdown("It's important to focus on nourishing your body with a balanced and varied diet. Include lean proteins, whole grains, fruits, and vegetables in your meals. Ensure you meet your daily calorie requirements to support healthy weight gain. Engage in strength-building exercises to build muscle mass and improve your overall strength. Prioritize quality sleep of 7-9 hours each night to support your body's growth and recovery. Consider quitting smoking to improve overall health. (Website: https://www.smokefree.gov) For additional information, you can visit: (Website: https://www.nhs.uk/live-well/healthy-weight/advice-for-underweight-adults/)")
         else:
             st.text("It's important to focus on nourishing your body with a balanced and varied diet.")
             st.text("Include lean proteins, whole grains, fruits, and vegetables in your meals.")
