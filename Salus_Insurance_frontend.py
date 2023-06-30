@@ -54,18 +54,18 @@ def main():
     
         st.success('Your Insurance Cost is {} THB/year'.format(round(pred[0])))
 
-        print("suggestions\n")
+        st.text("suggestions\n")
 
         if p3 >= 35:
-            print("You are fucking obese")
+            st.text("You are fucking obese")
         elif (p3 < 35) and (p3 >= 30):
-            print("You are obese")
+            st.text("You are obese")
         elif (p3 < 30) and (p3 >= 25):
-            print("You are obese")
+            st.text("You are obese")
         elif (p3 < 25) and (p3 >= 18.5):
-            print("You are normal")
+            st.text("You are normal")
         else:
-            print("You need to eat more bro")
+            st.text("You need to eat more bro")
         
         
 if __name__ == '__main__':
