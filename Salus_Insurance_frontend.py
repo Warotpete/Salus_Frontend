@@ -55,7 +55,7 @@ def main():
         st.success('Your Insurance Cost is {} THB/year'.format(round(pred[0])))
 
         st.divider()
-        st.header("suggestions\n")
+        st.header("Suggestions\n")
         provide_feedback(p3,p4)
         st.divider()
 
